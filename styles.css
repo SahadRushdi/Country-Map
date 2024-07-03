@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container h2 {
+    color: #0037ff;
+    
+  }
+  
+  .search-section {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-section input {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .search-section button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .search-section button:hover {
+    background-color: #0056b3;
+  }
+  
+  .result-section {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .result-section h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .result-section h2 {
+    font-size: 20px;
+    color: #666;
+  }
+  
+  .result-section #img img {
+    width: 100px;
+    height: 60px;
+    margin-top: 10px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .table th,
+  .table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .table th {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .table td img {
+    width: 50px;
+    height: 30px;
+  }
+  

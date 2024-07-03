@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Country Information</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <center>
+        <div class="container">
+            <h2 style="text-align: center">🌍COUNTRY INFORMATION🌎</h2>
+            <div class="search-section">
+              <input
+                type="text"
+                id="txtSearchValue"
+                placeholder="Enter country name"
+              />
+              <button onclick="searchCountry()">Search</button>
+            </div>
+      
+            <div class="result-section">
+              <h1 id="officialName"></h1>
+              <h1 id="name"></h1>
+              <h3 id="currencies"></h3>
+              <h3 id="region"></h3>
+              <h3 id="population"></h3>
+              <h3 id="languages"></h3>
+              <div id="img"></div>
+            </div>
+      
+            <table id="tbl" class="table"></table>
+          </div>
+      
+    </center>
+
+    <script src="app.js"></script>
+  </body>
+</html>
